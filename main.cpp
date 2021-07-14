@@ -11,7 +11,6 @@ int main()
   Point center{x_max() / 2, y_max() / 2};
 
   Simple_window win{top_left, x_max(), y_max(), "Canvas"};
-  win.color(Color::white);
 
   win.wait_for_button();
 }
